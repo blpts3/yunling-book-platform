@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { currentUser } from "@/data/mockData"
-import { Users, BookOpen, Award, MapPin, Calendar, Link as LinkIcon, Mail, Github, MessageCircle, Settings, Edit, BadgeCheck, Shield } from "lucide-react"
+import { Users, BookOpen, Award, MapPin, Calendar, Link as LinkIcon, Mail, Github, MessageCircle, Settings, Edit, BadgeCheck, Shield, Heart, Share2 } from "lucide-react"
 
 export default function Profile() {
   return (

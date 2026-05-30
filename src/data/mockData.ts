@@ -331,6 +331,7 @@ export interface Comment {
   author: {
     name: string
     avatar: string
+    role?: string
     verified: boolean
   }
   content: string
