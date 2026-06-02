@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { Analytics } from '@vercel/analytics/react'
 import Home from "./pages/Home"
 import Mentors from "./pages/Mentors"
 import Info from "./pages/Info"
@@ -186,6 +187,7 @@ function App() {
         <Footer />
         <MobileNav />
       </div>
+      <Analytics />
     </BrowserRouter>
   )
 }
